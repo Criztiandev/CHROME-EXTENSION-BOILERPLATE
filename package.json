@@ -1,0 +1,32 @@
+{
+  "name": "web-blocker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@rollup/plugin-babel": "^5.2.2",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "@rollup/plugin-replace": "^2.4.1",
+    "cross-env": "^7.0.3",
+    "rollup": "^2.40.0",
+    "rollup-plugin-chrome-extension": "^3.6.10",
+    "rollup-plugin-empty-dir": "^1.0.4",
+    "rollup-plugin-zip": "^1.0.1",
+    "webextension-polyfill": "^0.7.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}
